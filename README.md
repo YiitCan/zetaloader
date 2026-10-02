@@ -3,6 +3,9 @@
 
 # ZetaLoader
 
+
+# THIS PROJECT BELONGED TO AETOPIA AND STILL DOES BUT DUE TO HIM TAKING IT DOWN IT CAUSED PEOPLE WHO USE THE MOD IN CAMPAIGN TO LOSE ACCESS TO IT THIS IS YOUR NOW ONLY WAY TO THIS.
+
 A modification to fix technical issues with Halo Infinite on PC.
 
 ## Features
@@ -65,8 +68,7 @@ User Specified Display Mode provides Halo Infinite with the facility to have the
 #### Jittery Mouse Input Fix
 > [!IMPORTANT]
 > Setting the game's process priority to `High` will negate this fix.    
-> Reference: https://learn.microsoft.com/en-us/windows/win32/procthread/scheduling-priorities       
-> Issue + Fix Demonstration: https://www.youtube.com/watch?v=4pJd-dKW7WY      
+> Reference: https://learn.microsoft.com/en-us/windows/win32/procthread/scheduling-priorities      
       
 Setting the game's window thread priority to `THREAD_PRIORITY_HIGHEST` resolves jittery mouse input when an external framerate limiter is being used by giving the game's window thread enough of a timeslice. <br>  
 You can verify if this works by using a lower thread priority & setting it using the function `SetThreadPriority` in the source code. 
