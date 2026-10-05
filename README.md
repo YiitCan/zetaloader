@@ -50,8 +50,6 @@ This is simply fixed by using the following attributes:
 
 
 #### User Specified Display Mode  
-> [!NOTE]
-> User Specified Display Mode Demonstration: https://www.youtube.com/watch?v=FnzN4xTO6UA
 
 > [!TIP]
 > - ZetaLoader's Borderless Fullscreen must be enabled to use this feature.
